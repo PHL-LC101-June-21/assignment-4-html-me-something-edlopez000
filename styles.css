@@ -5,10 +5,7 @@
 }
 
 body {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 8px;
 
   background-color: #adefd1ff;
   color: #00203fff;
@@ -17,4 +14,21 @@ body {
 #main-header,
 footer {
   text-align: center;
+}
+
+#screenshot {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 75%;
+  max-width: 75%;
+}
+
+/* Ignore below */
+
+#mainHeading {
+  color: red;
+}
+
+.funParagraph {
+  color: green;
 }
