@@ -1,14 +1,47 @@
 /* Write your CSS here! */
 
+@font-face {
+  font-family: "Epilogue";
+  src: url(assets/Epilogue-Regular.ttf) format("truetype");
+}
+
 * {
   cursor: url(assets/tiny-hand.cur), default;
 }
 
 body {
-  margin: 8px;
-
+  font-family: "Epilogue";
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
   background-color: #adefd1ff;
   color: #00203fff;
+}
+
+input {
+  display: inline-block;
+  border: 0.1em solid #adefd1ff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Epilogue", sans-serif;
+  color: #00203fff;
+  text-align: center;
+  transition: all 0.2s;
+}
+input:hover {
+  color: #000000;
+  background-color: #adefd1ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main-header {
+  margin-bottom: 3%;
+  border: 2px solid black;
 }
 
 #main-header,
@@ -16,11 +49,15 @@ footer {
   text-align: center;
 }
 
-#screenshot {
-  display: inline-block;
-  vertical-align: middle;
-  max-height: 75%;
-  max-width: 75%;
+.header-info {
+  text-align: center;
+}
+
+.screenshot {
+  border: 5px solid #00203fff;
+  margin: auto;
+  max-height: 50%;
+  max-width: 50%;
 }
 
 /* Ignore below */
